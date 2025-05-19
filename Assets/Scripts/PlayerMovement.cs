@@ -6,24 +6,36 @@ public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody2D mayaRb;
     public float speed;
-    public float input;
     public SpriteRenderer spriteRenderer;
 
-    // Update is called once per frame
+    float input;
+    Animator animator;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     void Update()
     {
         input = Input.GetAxisRaw("Horizontal");
-        if(input < 0)
-        {
-            spriteRenderer.flipX = false;
-        } else if (input > 0)
+
+        // Flip sprite
+        if (input < 0)
         {
             spriteRenderer.flipX = true;
         }
+        else if (input > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+
+        // Set animasi gerak
+        animator.SetFloat("xVelocity", Mathf.Abs(input));
     }
 
     void FixedUpdate()
     {
-        mayaRb.velocity = new Vector2 (input * speed, mayaRb.velocity.y);
+        mayaRb.velocity = new Vector2(input * speed, mayaRb.velocity.y);
     }
 }
