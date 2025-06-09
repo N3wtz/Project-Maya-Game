@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
 
     [Header("UI References")]
     public CanvasGroup canvasGroup;
-    //public Image portrait;
+    // public Image portrait;
     public TMP_Text actorName;
     public TMP_Text dialogueText;
 
@@ -20,7 +20,10 @@ public class DialogueManager : MonoBehaviour
 
     private Coroutine typingCoroutine;
     private bool isTyping = false;
-    private float typingSpeed = 0.05f; // Kecepatan ketikan per karakter
+    private float typingSpeed = 0.05f;
+
+    private bool isInCooldown = false;
+    public float cooldownAfterDialogue = 1f; // bisa diatur dari Unity Inspector
 
     private void Awake()
     {
@@ -36,6 +39,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueSO dialogueSO)
     {
+        if (isDialogueActive || isInCooldown) return; // Cegah saat masih aktif atau dalam cooldown
+
         currentDialogue = dialogueSO;
         dialogueIndex = 0;
         isDialogueActive = true;
@@ -46,7 +51,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (isTyping)
         {
-            // Skip typing effect dan tampilkan teks penuh
+            // Langsung tampilkan seluruh teks
             if (typingCoroutine != null)
                 StopCoroutine(typingCoroutine);
 
@@ -67,7 +72,7 @@ public class DialogueManager : MonoBehaviour
     {
         DialogueLine line = currentDialogue.lines[dialogueIndex];
 
-        //portrait.sprite = line.speaker.portrait;
+        // portrait.sprite = line.speaker.portrait;
         actorName.text = line.speaker.actorName;
 
         if (typingCoroutine != null)
@@ -104,5 +109,15 @@ public class DialogueManager : MonoBehaviour
         canvasGroup.alpha = 0;
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
+
+        // Mulai cooldown agar tidak bisa langsung dijalankan lagi
+        StartCoroutine(CooldownRoutine());
+    }
+
+    private IEnumerator CooldownRoutine()
+    {
+        isInCooldown = true;
+        yield return new WaitForSeconds(cooldownAfterDialogue);
+        isInCooldown = false;
     }
 }
