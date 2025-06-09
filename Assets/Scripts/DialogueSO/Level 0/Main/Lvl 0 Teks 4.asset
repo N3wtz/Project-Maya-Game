@@ -10,17 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
-  m_Name: Lvl 0 Teks 3
+  m_Name: Lvl 0 Teks 4
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Loh, kok ruangan ini kosong?
+    text: Eh?
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Sebenarnya apa yang dipamerin di sini, ya?
+    text: Ini buku apa, ya?
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Hawanya aja ya?
+    text: Kok beda sendiri dari yang lain?
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: "Jadi makin penasaran\u2026 sebenarnya ini tempat apa, sih?"
+    text: Kelihatan banget ini buku tua, dari sampulnya aja udah khas.
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: "Kalau nggak salah, biasanya museum itu punya buku panduan atau informasi
-      ya? Harusnya ada di sekitar sini nih\u2026"
+    text: Jangan-jangan ini salah satu benda koleksi juga?
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Tapi kenapa ditaruh di sini, nggak di dalam etalase?
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Aku jadi makin penasaran\u2026 isinya tentang apa, ya?"

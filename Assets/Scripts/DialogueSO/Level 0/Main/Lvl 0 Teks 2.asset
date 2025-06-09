@@ -17,12 +17,12 @@ MonoBehaviour:
     text: Eh, coba deh lihat guci-guci itu. Warna dan bentuknya unik-unik banget!
   - speaker: {fileID: 11400000, guid: c2607fa4357df6d4fa8b46ec33f69ee9, type: 2}
     text: Yuk, kita lihat-lihat ke sana dulu.
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: Aku jalan duluan ya, pengen lihat bagian lain aja.
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
     text: "Yaudah, tapi jangan jauh-jauh ya, May\u2026 nanti nyasar lagi kayak waktu
       itu."
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: Emangnya aku anak kecil apa? Masa nyasar di tempat begini?
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
     text: Hehe, siapa tahu kan? Yaudah sana, hati-hati. Yuk, Di, kita ke sana.

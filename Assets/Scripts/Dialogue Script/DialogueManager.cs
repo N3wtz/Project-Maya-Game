@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
@@ -9,7 +8,6 @@ public class DialogueManager : MonoBehaviour
 
     [Header("UI References")]
     public CanvasGroup canvasGroup;
-    // public Image portrait;
     public TMP_Text actorName;
     public TMP_Text dialogueText;
 
@@ -20,10 +18,19 @@ public class DialogueManager : MonoBehaviour
 
     private Coroutine typingCoroutine;
     private bool isTyping = false;
-    private float typingSpeed = 0.05f;
+    private bool skipTyping = false;
 
+    [Header("Typing Settings")]
+    [Tooltip("Waktu delay per karakter untuk efek ketik")]
+    public float typingSpeed = 0.05f;
+
+    [Header("Cooldown Settings")]
+    [Tooltip("Cooldown setelah dialog selesai sebelum bisa memulai lagi")]
+    public float cooldownAfterDialogue = 1f;
     private bool isInCooldown = false;
-    public float cooldownAfterDialogue = 1f; // bisa diatur dari Unity Inspector
+
+    // Flag untuk mencegah input lanjut dialog terlalu cepat
+    private bool canAdvance = true;
 
     private void Awake()
     {
@@ -39,7 +46,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueSO dialogueSO)
     {
-        if (isDialogueActive || isInCooldown) return; // Cegah saat masih aktif atau dalam cooldown
+        if (isDialogueActive || isInCooldown) return;
 
         currentDialogue = dialogueSO;
         dialogueIndex = 0;
@@ -49,18 +56,15 @@ public class DialogueManager : MonoBehaviour
 
     public void AdvanceDialogue()
     {
+        if (!canAdvance) return;  // jika belum boleh lanjut, ignore input
+
         if (isTyping)
         {
-            // Langsung tampilkan seluruh teks
-            if (typingCoroutine != null)
-                StopCoroutine(typingCoroutine);
-
-            dialogueText.text = currentDialogue.lines[dialogueIndex - 1].text;
-            isTyping = false;
+            skipTyping = true;
         }
         else if (dialogueIndex < currentDialogue.lines.Length)
         {
-            ShowDialogue();
+            StartCoroutine(AdvanceWithDelay());
         }
         else
         {
@@ -68,15 +72,29 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    private IEnumerator AdvanceWithDelay()
+    {
+        canAdvance = false;
+
+        ShowDialogue();
+
+        // Beri jeda minimal agar efek ketik bisa terlihat
+        yield return new WaitForSeconds(typingSpeed * 2f);
+
+        canAdvance = true;
+    }
+
     private void ShowDialogue()
     {
         DialogueLine line = currentDialogue.lines[dialogueIndex];
 
-        // portrait.sprite = line.speaker.portrait;
         actorName.text = line.speaker.actorName;
 
         if (typingCoroutine != null)
+        {
             StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
 
         typingCoroutine = StartCoroutine(TypeLine(line.text));
 
@@ -90,15 +108,24 @@ public class DialogueManager : MonoBehaviour
     private IEnumerator TypeLine(string text)
     {
         isTyping = true;
+        skipTyping = false;
         dialogueText.text = "";
 
         foreach (char c in text)
         {
+            if (skipTyping)
+            {
+                dialogueText.text = text;
+                break;
+            }
+
             dialogueText.text += c;
             yield return new WaitForSeconds(typingSpeed);
         }
 
         isTyping = false;
+        skipTyping = false;
+        typingCoroutine = null;
     }
 
     private void EndDialogue()
@@ -110,14 +137,15 @@ public class DialogueManager : MonoBehaviour
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
 
-        // Mulai cooldown agar tidak bisa langsung dijalankan lagi
         StartCoroutine(CooldownRoutine());
     }
 
     private IEnumerator CooldownRoutine()
     {
         isInCooldown = true;
+        canAdvance = false;
         yield return new WaitForSeconds(cooldownAfterDialogue);
         isInCooldown = false;
+        canAdvance = true;
     }
 }

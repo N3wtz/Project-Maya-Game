@@ -29,19 +29,4 @@ public class SceneDialogueTrigger : MonoBehaviour
             Debug.LogWarning("startingDialogue belum di-assign atau DialogueManager.Instance belum siap.");
         }
     }
-
-    private void Update()
-    {
-        if (DialogueManager.Instance != null && Input.GetKeyDown(KeyCode.Space))
-        {
-            if (DialogueManager.Instance.isDialogueActive)
-            {
-                DialogueManager.Instance.AdvanceDialogue();
-            }
-            else if (startingDialogue != null)
-            {
-                DialogueManager.Instance.StartDialogue(startingDialogue);
-            }
-        }
-    }
 }
