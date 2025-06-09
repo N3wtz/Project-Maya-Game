@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -17,11 +18,15 @@ public class DialogueManager : MonoBehaviour
     private DialogueSO currentDialogue;
     private int dialogueIndex;
 
+    private Coroutine typingCoroutine;
+    private bool isTyping = false;
+    private float typingSpeed = 0.05f; // Kecepatan ketikan per karakter
+
     private void Awake()
     {
-        if (Instance == null) 
+        if (Instance == null)
             Instance = this;
-        else 
+        else
             Destroy(gameObject);
 
         canvasGroup.alpha = 0;
@@ -39,11 +44,25 @@ public class DialogueManager : MonoBehaviour
 
     public void AdvanceDialogue()
     {
-        if (dialogueIndex < currentDialogue.lines.Length)
+        if (isTyping)
+        {
+            // Skip typing effect dan tampilkan teks penuh
+            if (typingCoroutine != null)
+                StopCoroutine(typingCoroutine);
+
+            dialogueText.text = currentDialogue.lines[dialogueIndex - 1].text;
+            isTyping = false;
+        }
+        else if (dialogueIndex < currentDialogue.lines.Length)
+        {
             ShowDialogue();
+        }
         else
+        {
             EndDialogue();
+        }
     }
+
     private void ShowDialogue()
     {
         DialogueLine line = currentDialogue.lines[dialogueIndex];
@@ -51,13 +70,30 @@ public class DialogueManager : MonoBehaviour
         //portrait.sprite = line.speaker.portrait;
         actorName.text = line.speaker.actorName;
 
-        dialogueText.text = line.text;
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
+        typingCoroutine = StartCoroutine(TypeLine(line.text));
 
         canvasGroup.alpha = 1;
         canvasGroup.interactable = true;
         canvasGroup.blocksRaycasts = true;
 
         dialogueIndex++;
+    }
+
+    private IEnumerator TypeLine(string text)
+    {
+        isTyping = true;
+        dialogueText.text = "";
+
+        foreach (char c in text)
+        {
+            dialogueText.text += c;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        isTyping = false;
     }
 
     private void EndDialogue()

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -18,6 +16,14 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // Cek apakah sedang dalam dialog
+        if (DialogueManager.Instance != null && DialogueManager.Instance.isDialogueActive)
+        {
+            input = 0;
+            animator.SetFloat("xVelocity", 0);
+            return;
+        }
+
         input = Input.GetAxisRaw("Horizontal");
 
         // Flip sprite
