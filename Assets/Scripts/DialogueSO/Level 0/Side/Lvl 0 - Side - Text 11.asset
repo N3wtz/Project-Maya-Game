@@ -14,4 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Deskripsi Barang Disini
+    text: Perisai suku Dayak ini dibuat dari kayu ulin dan dihiasi motif roh penjaga.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Digunakan dalam ritual perang dan perlindungan spiritual.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Tameng Dayaknya nggak ada?!
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Apa ini kebetulan, atau memang ada yang mengambil barang-barang ini?

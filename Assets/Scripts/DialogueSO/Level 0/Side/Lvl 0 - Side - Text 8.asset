@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Deskripsi Barang Disini
+    text: Vas ungu ini merupakan artefak langka yang diyakini berasal dari masa akhir
+      Kerajaan Singasari

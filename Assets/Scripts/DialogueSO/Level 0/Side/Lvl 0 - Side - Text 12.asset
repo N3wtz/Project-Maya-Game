@@ -14,4 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Deskripsi Barang Disini
+    text: Hiasan kepala adat Papua ini terbuat dari bulu burung Cenderawasih yang
+      melambangkan kemuliaan, kedamaian, dan hubungan dengan roh leluhur.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Biasanya dikenakan dalam upacara adat dan tari perang.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Yang bener aja\u2026 topi cenderawasih juga hilang?!"
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Ini sih udah bukan museum lagi... kayak tempat misteri!

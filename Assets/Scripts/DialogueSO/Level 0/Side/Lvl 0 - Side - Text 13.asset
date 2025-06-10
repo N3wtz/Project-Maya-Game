@@ -14,4 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Deskripsi Barang Disini
+    text: Badik adalah senjata tradisional yang membawa makna kehormatan dan keberanian.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Bilahnya melengkung khas, dan sering diwariskan turun-temurun.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Dipercaya, setiap badik memiliki \u201Cisi\u201D atau roh penjaga."
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Sekarang giliran badik yang nggak ada.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Seriusan nih museum? Masa bisa segini banyak koleksi hilang?
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Apa sudah dijual semua?

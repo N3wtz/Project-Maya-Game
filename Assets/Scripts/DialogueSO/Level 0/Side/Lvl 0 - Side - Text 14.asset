@@ -14,4 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Deskripsi Barang Disini
+    text: Kain batik Sekar Jagad dikenal sebagai simbol keindahan dan keragaman dunia.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Motifnya yang rumit menggambarkan peta-peta wilayah dan bunga-bunga kehidupan.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Kain ini sering dikenakan dalam upacara adat dan pertunjukan kerajaan.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Hah? Batik Sekar Jagad katanya salah satu koleksi utama museum ini...
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Kok cuma labelnya doang? Batiknya ke mana?
