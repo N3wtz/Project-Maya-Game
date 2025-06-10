@@ -1393,6 +1393,14 @@ PlayableDirector:
     value: {fileID: 1064061147}
   - key: {fileID: -3323757850894766904, guid: ed68ae2f7b7f7d6418027cdc2f3376a9, type: 2}
     value: {fileID: 1064061147}
+  - key: {fileID: 7480269569841944606, guid: ed68ae2f7b7f7d6418027cdc2f3376a9, type: 2}
+    value: {fileID: 2114078345}
+  - key: {fileID: 9132908990570244769, guid: ed68ae2f7b7f7d6418027cdc2f3376a9, type: 2}
+    value: {fileID: 2114078345}
+  - key: {fileID: 2111428065400726185, guid: ed68ae2f7b7f7d6418027cdc2f3376a9, type: 2}
+    value: {fileID: 1262264840}
+  - key: {fileID: -5997880029035671278, guid: ed68ae2f7b7f7d6418027cdc2f3376a9, type: 2}
+    value: {fileID: 1262264840}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &360097163
@@ -2809,7 +2817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f0bc6bb69490d143b085070ff2f238f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSO: {fileID: 11400000, guid: 25cd856ed8ba0194dbc51d0ac9f1b89f, type: 2}
+  dialogueSO: {fileID: 11400000, guid: c9785d1c64ca4b44ebef5be06876f0e8, type: 2}
 --- !u!114 &847262284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4457,7 +4465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262264838}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.43, y: 3.94, z: -0.13016778}
   m_LocalScale: {x: 2.3, y: 2.3, z: 2.3}
   m_ConstrainProportionsScale: 1
@@ -7400,7 +7408,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114078343}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.27, y: 3.94, z: -0.13016778}
   m_LocalScale: {x: 2.3, y: 2.3, z: 2.3}
   m_ConstrainProportionsScale: 1
