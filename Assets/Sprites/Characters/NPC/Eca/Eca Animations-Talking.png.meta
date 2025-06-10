@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -134,7 +134,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Eca Animations-Talking_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 25
+        width: 75
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff45e6e6828963943ae5282c7ceafea3
+      internalID: -2048147637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 25
+        width: 73
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996ff938316fa7247aaaaaf5959423f5
+      internalID: -1357279364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 25
+        width: 74
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e8cb5cefb7af0468eaa9bbf6e0c19c
+      internalID: 2103630320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 25
+        width: 72
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af4b63d133c2574e83677ae6504a28e
+      internalID: 1544978415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_4
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 25
+        width: 72
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94a8ab48408f2242aa716ea7b1886dc
+      internalID: 1851583731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 25
+        width: 72
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e9f6bafe5ef85489798ba80c2de8a8
+      internalID: 816475540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_6
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 25
+        width: 72
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d9d1a6e4ac66149a117c3140deb936
+      internalID: 1990789832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_7
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 25
+        width: 72
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338357f7c3718e242a88dbb9f1723dab
+      internalID: -711581386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_8
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 25
+        width: 72
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006e7c29bddee3c42b0aa352b098b9d7
+      internalID: -2003788094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_9
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 25
+        width: 72
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b122f1de0b535144b68d2becf314100
+      internalID: 428070499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_10
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 25
+        width: 72
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34276e8892a2d764a81b6bd885905717
+      internalID: -2035097452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Talking_11
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 25
+        width: 72
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b9d427e83e7e44a95207fc9572fac1
+      internalID: -1908058907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +397,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Eca Animations-Talking_0: -2048147637
+      Eca Animations-Talking_1: -1357279364
+      Eca Animations-Talking_10: -2035097452
+      Eca Animations-Talking_11: -1908058907
+      Eca Animations-Talking_2: 2103630320
+      Eca Animations-Talking_3: 1544978415
+      Eca Animations-Talking_4: 1851583731
+      Eca Animations-Talking_5: 816475540
+      Eca Animations-Talking_6: 1990789832
+      Eca Animations-Talking_7: -711581386
+      Eca Animations-Talking_8: -2003788094
+      Eca Animations-Talking_9: 428070499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

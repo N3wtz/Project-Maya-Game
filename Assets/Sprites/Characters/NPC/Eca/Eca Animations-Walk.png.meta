@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -134,7 +134,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Eca Animations-Walk_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 32
+        width: 68
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8c56e1f17e01f4486d0c69f5cb3599
+      internalID: -1896076190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Walk_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 66
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ced99bb471d214396fe5d380f3ce07
+      internalID: -549268230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Walk_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 32
+        width: 68
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f70e1f449b325c4e9af2224a9060ff1
+      internalID: -1432622017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Walk_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 32
+        width: 72
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f11dfa5d0d34444fa20de8a1c9c93a1
+      internalID: 59836716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 32
+        width: 72
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e5be096bef6a14f8b5ede260527469
+      internalID: -2053016713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 32
+        width: 68
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555ca16fc1aae3c428b0eb233aeede2f
+      internalID: 1765094220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 32
+        width: 66
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa28949050f64674cbd7e154bda86dd7
+      internalID: -2068417103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eca Animations-Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 32
+        width: 76
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c8cb9492574d34c86047ebbc22fe0e
+      internalID: -294429913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +313,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Eca Animations-Walk_0: -1896076190
+      Eca Animations-Walk_1: -549268230
+      Eca Animations-Walk_2: -1432622017
+      Eca Animations-Walk_3: 59836716
+      Eca Animations-Walk_4: -2053016713
+      Eca Animations-Walk_5: 1765094220
+      Eca Animations-Walk_6: -2068417103
+      Eca Animations-Walk_7: -294429913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

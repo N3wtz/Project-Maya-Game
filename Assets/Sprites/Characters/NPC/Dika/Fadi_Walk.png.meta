@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ebe89eddb83b4a346a19d9ce25be9f3e
+guid: 9d1ed6b100d066f4680de366d5ee4599
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Eca Animations-Idle_0
+      name: Fadi_Walk_0
       rect:
         serializedVersion: 2
         x: 88
-        y: 25
-        width: 75
-        height: 204
+        y: 32
+        width: 68
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f6cf77b8f0f7941ac753c72abcf59b
-      internalID: 1737564917
+      spriteID: 15833f1dd5d035144b68ee0ef0b07f51
+      internalID: -676452885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_1
+      name: Fadi_Walk_1
       rect:
         serializedVersion: 2
-        x: 345
-        y: 25
-        width: 73
-        height: 204
+        x: 348
+        y: 32
+        width: 62
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91823652581cac241a905e76f736fd87
-      internalID: 1393622162
+      spriteID: ef7727dbf1ee5b7429e4626ad3ce90de
+      internalID: -501505546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_2
+      name: Fadi_Walk_2
       rect:
         serializedVersion: 2
-        x: 601
-        y: 25
+        x: 604
+        y: 32
+        width: 70
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3548efa2298e74a85d39999473e089
+      internalID: 2061352848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fadi_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 32
+        width: 70
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663c7f52ca2188349ab722cc886cce65
+      internalID: -94415713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fadi_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 32
+        width: 70
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889a2fe3acd773b45a305f21e0bfd998
+      internalID: 331811357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fadi_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 32
+        width: 66
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679fe1040c98f3d4ead8a4fbd3e29b4b
+      internalID: -684555307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fadi_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 32
+        width: 62
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f074ebc0a520b4f49993ec50d08c57c0
+      internalID: 800274849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fadi_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 32
         width: 74
-        height: 204
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,197 +297,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c07a58ff56c4d34babc603b4c97f2dd
-      internalID: 1111962775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eca Animations-Idle_3
-      rect:
-        serializedVersion: 2
-        x: 856
-        y: 25
-        width: 72
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 101670e8cad2bad4bb1d925bd668bbb2
-      internalID: -1958137357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eca Animations-Idle_4
-      rect:
-        serializedVersion: 2
-        x: 1113
-        y: 25
-        width: 72
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37b96c5a216fcdb4699b71b405ad3582
-      internalID: 1173432187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eca Animations-Idle_5
-      rect:
-        serializedVersion: 2
-        x: 1369
-        y: 25
-        width: 72
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c01dd4f0ebdd0f46a835e66f823b8ff
-      internalID: 149779897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eca Animations-Idle_6
-      rect:
-        serializedVersion: 2
-        x: 1624
-        y: 25
-        width: 72
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca7aeef1c827dff44ac469ff13e7e388
-      internalID: 11662325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eca Animations-Idle_7
-      rect:
-        serializedVersion: 2
-        x: 1881
-        y: 25
-        width: 72
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 932169c8f364c124c9faa6cce4b3e751
-      internalID: 14737144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eca Animations-Idle_8
-      rect:
-        serializedVersion: 2
-        x: 2137
-        y: 25
-        width: 72
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 874682cb86981be4f8aafee982c7075a
-      internalID: -1223481445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eca Animations-Idle_9
-      rect:
-        serializedVersion: 2
-        x: 2392
-        y: 25
-        width: 72
-        height: 204
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99365fe0721cfb74e98b22f1586bc4a3
-      internalID: -1957986927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eca Animations-Idle_10
-      rect:
-        serializedVersion: 2
-        x: 2649
-        y: 25
-        width: 72
-        height: 204
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa0dcb9bf0e54b84a978bc5dcbc82209
-      internalID: -228894325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eca Animations-Idle_11
-      rect:
-        serializedVersion: 2
-        x: 2905
-        y: 25
-        width: 72
-        height: 204
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57a83eb931e0f034da5464b79c8733f8
-      internalID: 1009292066
+      spriteID: fd60ca278a2609247b3e0a5d6c5f6b94
+      internalID: 1098108334
       vertices: []
       indices: 
       edges: []
@@ -398,18 +314,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Eca Animations-Idle_0: 1737564917
-      Eca Animations-Idle_1: 1393622162
-      Eca Animations-Idle_10: -228894325
-      Eca Animations-Idle_11: 1009292066
-      Eca Animations-Idle_2: 1111962775
-      Eca Animations-Idle_3: -1958137357
-      Eca Animations-Idle_4: 1173432187
-      Eca Animations-Idle_5: 149779897
-      Eca Animations-Idle_6: 11662325
-      Eca Animations-Idle_7: 14737144
-      Eca Animations-Idle_8: -1223481445
-      Eca Animations-Idle_9: -1957986927
+      Fadi_Walk_0: -676452885
+      Fadi_Walk_1: -501505546
+      Fadi_Walk_2: 2061352848
+      Fadi_Walk_3: -94415713
+      Fadi_Walk_4: 331811357
+      Fadi_Walk_5: -684555307
+      Fadi_Walk_6: 800274849
+      Fadi_Walk_7: 1098108334
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ebe89eddb83b4a346a19d9ce25be9f3e
+guid: 8d18441a15401334ab4ff24d4221b23f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,12 +136,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Eca Animations-Idle_0
+      name: Fadi_Idle_0
       rect:
         serializedVersion: 2
-        x: 88
+        x: 91
         y: 25
-        width: 75
+        width: 68
         height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,19 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f6cf77b8f0f7941ac753c72abcf59b
-      internalID: 1737564917
+      spriteID: 9675eabf3e832684cb9f37caaa2a96bb
+      internalID: 1473445552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_1
+      name: Fadi_Idle_1
       rect:
         serializedVersion: 2
-        x: 345
+        x: 346
         y: 25
-        width: 73
+        width: 69
         height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -171,19 +171,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91823652581cac241a905e76f736fd87
-      internalID: 1393622162
+      spriteID: bc6381f41cc6ae1408eb8cfe516a84ab
+      internalID: -2003605333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_2
+      name: Fadi_Idle_2
       rect:
         serializedVersion: 2
-        x: 601
+        x: 603
         y: 25
-        width: 74
+        width: 67
         height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,19 +192,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c07a58ff56c4d34babc603b4c97f2dd
-      internalID: 1111962775
+      spriteID: 9993598ab7ce8034c9c130d5d7c6782b
+      internalID: -1369170417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_3
+      name: Fadi_Idle_3
       rect:
         serializedVersion: 2
         x: 856
         y: 25
-        width: 72
+        width: 69
         height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -213,19 +213,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 101670e8cad2bad4bb1d925bd668bbb2
-      internalID: -1958137357
+      spriteID: 54f53c9fb82ce0f4bb5f3f83b1ca486f
+      internalID: -693623298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_4
+      name: Fadi_Idle_4
       rect:
         serializedVersion: 2
         x: 1113
         y: 25
-        width: 72
+        width: 67
         height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -234,19 +234,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37b96c5a216fcdb4699b71b405ad3582
-      internalID: 1173432187
+      spriteID: 9e28b819eadc00f40aced9dcfc575592
+      internalID: 2029179996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_5
+      name: Fadi_Idle_5
       rect:
         serializedVersion: 2
         x: 1369
         y: 25
-        width: 72
+        width: 68
         height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -255,19 +255,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c01dd4f0ebdd0f46a835e66f823b8ff
-      internalID: 149779897
+      spriteID: ab7ed6b6169d34e47a1af07b75475cfb
+      internalID: 604181703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_6
+      name: Fadi_Idle_6
       rect:
         serializedVersion: 2
         x: 1624
         y: 25
-        width: 72
+        width: 69
         height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -276,19 +276,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca7aeef1c827dff44ac469ff13e7e388
-      internalID: 11662325
+      spriteID: 27f1548bc6ec85147ac72f76a35f08b8
+      internalID: -817995633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_7
+      name: Fadi_Idle_7
       rect:
         serializedVersion: 2
         x: 1881
         y: 25
-        width: 72
+        width: 67
         height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -297,19 +297,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 932169c8f364c124c9faa6cce4b3e751
-      internalID: 14737144
+      spriteID: 74abd9f742eb86743937d9cffc279d71
+      internalID: -1074460817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_8
+      name: Fadi_Idle_8
       rect:
         serializedVersion: 2
         x: 2137
         y: 25
-        width: 72
+        width: 68
         height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -318,19 +318,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 874682cb86981be4f8aafee982c7075a
-      internalID: -1223481445
+      spriteID: b66f3086fa7320c4b9989444ef44b0e7
+      internalID: 1285696865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_9
+      name: Fadi_Idle_9
       rect:
         serializedVersion: 2
         x: 2392
         y: 25
-        width: 72
+        width: 69
         height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -339,19 +339,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99365fe0721cfb74e98b22f1586bc4a3
-      internalID: -1957986927
+      spriteID: 94e44effaf6f40741b8e05acb8dbf510
+      internalID: -578408575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_10
+      name: Fadi_Idle_10
       rect:
         serializedVersion: 2
         x: 2649
         y: 25
-        width: 72
+        width: 67
         height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -360,19 +360,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa0dcb9bf0e54b84a978bc5dcbc82209
-      internalID: -228894325
+      spriteID: 6f784f67618dad641a1d05fc2581949c
+      internalID: 1730281735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eca Animations-Idle_11
+      name: Fadi_Idle_11
       rect:
         serializedVersion: 2
         x: 2905
         y: 25
-        width: 72
+        width: 68
         height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -381,8 +381,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57a83eb931e0f034da5464b79c8733f8
-      internalID: 1009292066
+      spriteID: bd3e546aeb97a5e4387eb6cb77f5991f
+      internalID: -1458775647
       vertices: []
       indices: 
       edges: []
@@ -398,18 +398,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Eca Animations-Idle_0: 1737564917
-      Eca Animations-Idle_1: 1393622162
-      Eca Animations-Idle_10: -228894325
-      Eca Animations-Idle_11: 1009292066
-      Eca Animations-Idle_2: 1111962775
-      Eca Animations-Idle_3: -1958137357
-      Eca Animations-Idle_4: 1173432187
-      Eca Animations-Idle_5: 149779897
-      Eca Animations-Idle_6: 11662325
-      Eca Animations-Idle_7: 14737144
-      Eca Animations-Idle_8: -1223481445
-      Eca Animations-Idle_9: -1957986927
+      Fadi_Idle_0: 1473445552
+      Fadi_Idle_1: -2003605333
+      Fadi_Idle_10: 1730281735
+      Fadi_Idle_11: -1458775647
+      Fadi_Idle_2: -1369170417
+      Fadi_Idle_3: -693623298
+      Fadi_Idle_4: 2029179996
+      Fadi_Idle_5: 604181703
+      Fadi_Idle_6: -817995633
+      Fadi_Idle_7: -1074460817
+      Fadi_Idle_8: 1285696865
+      Fadi_Idle_9: -578408575
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
