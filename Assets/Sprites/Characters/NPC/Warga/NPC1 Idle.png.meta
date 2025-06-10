@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -134,259 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: NPC1 Idle_0
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 25
-        width: 69
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b414eb4c4ae7ce4e970daf2f26a6152
-      internalID: -611881822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_1
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 25
-        width: 71
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d41f2d64e756be41a33aa17f4408db3
-      internalID: 899486886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_2
-      rect:
-        serializedVersion: 2
-        x: 603
-        y: 25
-        width: 70
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea77683718f7aa84b8fb91e71feef789
-      internalID: -1057090543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_3
-      rect:
-        serializedVersion: 2
-        x: 859
-        y: 25
-        width: 68
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dc60c94b10093b4cb3cf7a0a3943e95
-      internalID: 1388756013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_4
-      rect:
-        serializedVersion: 2
-        x: 1114
-        y: 25
-        width: 69
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f27d7e9f59457c478656fa6602cc274
-      internalID: 1155674779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_5
-      rect:
-        serializedVersion: 2
-        x: 1371
-        y: 25
-        width: 67
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc4455c5202525943b31e6a6538d2c55
-      internalID: -1629971693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_6
-      rect:
-        serializedVersion: 2
-        x: 1627
-        y: 25
-        width: 68
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 678752b512e364d49bae6c69b1d1ece2
-      internalID: 1714173561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_7
-      rect:
-        serializedVersion: 2
-        x: 1882
-        y: 25
-        width: 69
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d3ce840cc41f734cbefff6ca5417526
-      internalID: 1249892450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_8
-      rect:
-        serializedVersion: 2
-        x: 2139
-        y: 25
-        width: 67
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12fb9e68ee6e5f64da999c6d8e5221f4
-      internalID: 244752810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_9
-      rect:
-        serializedVersion: 2
-        x: 2395
-        y: 25
-        width: 68
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab5991810bcef7443bcd18096b9228c6
-      internalID: 1750806115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_10
-      rect:
-        serializedVersion: 2
-        x: 2650
-        y: 25
-        width: 69
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d41d8d031b3e6c643ba059de6c3cc1f3
-      internalID: -2127468407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1 Idle_11
-      rect:
-        serializedVersion: 2
-        x: 2907
-        y: 25
-        width: 67
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39dc586268a76e24bae7cc9c4c70850c
-      internalID: -1400645542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -397,19 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      NPC1 Idle_0: -611881822
-      NPC1 Idle_1: 899486886
-      NPC1 Idle_10: -2127468407
-      NPC1 Idle_11: -1400645542
-      NPC1 Idle_2: -1057090543
-      NPC1 Idle_3: 1388756013
-      NPC1 Idle_4: 1155674779
-      NPC1 Idle_5: -1629971693
-      NPC1 Idle_6: 1714173561
-      NPC1 Idle_7: 1249892450
-      NPC1 Idle_8: 244752810
-      NPC1 Idle_9: 1750806115
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
