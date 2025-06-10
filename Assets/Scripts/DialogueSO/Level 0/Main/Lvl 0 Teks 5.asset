@@ -10,11 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
-  m_Name: Lvl 0 - Side - Text 2
+  m_Name: Lvl 0 Teks 5
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Vas ini berasal dari wilayah Trowulan, bekas pusat Kerajaan Majapahit.
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Warna merah yang mencolok melambangkan keberanian, darah para pejuang,
-      dan semangat persatuan.
+    text: Aku harus mencari petunjuk tentang barang yang hilang ini

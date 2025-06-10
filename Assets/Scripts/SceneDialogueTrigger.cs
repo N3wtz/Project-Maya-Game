@@ -17,16 +17,21 @@ public class SceneDialogueTrigger : MonoBehaviour
 
     private IEnumerator StartDialogueWithDelay()
     {
-        // Tunggu selama waktu yang ditentukan
         yield return new WaitForSeconds(startDelay);
 
-        if (startingDialogue != null && DialogueManager.Instance != null)
+        // Tunggu sampai DialogueManager.Instance tersedia
+        while (DialogueManager.Instance == null)
+        {
+            yield return null;
+        }
+
+        if (startingDialogue != null)
         {
             DialogueManager.Instance.StartDialogue(startingDialogue);
         }
         else
         {
-            Debug.LogWarning("startingDialogue belum di-assign atau DialogueManager.Instance belum siap.");
+            Debug.LogWarning("startingDialogue belum di-assign.");
         }
     }
 }

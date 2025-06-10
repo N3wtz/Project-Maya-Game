@@ -14,4 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Deskripsi Barang Disini
+    text: Terbuat dari kayu ulin yang sangat kuat
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Tongkat ini digunakan dalam ritual penyembuhan dan komunikasi dengan roh
+      leluhur.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Konon, hanya mereka yang terpilih secara spiritual yang bisa menggenggam
+      tongkat ini tanpa mengalami mimpi buruk.

@@ -14,4 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Deskripsi Barang Disini
+    text: "Buletin Museum Budaya Nusantara \u2013 Edisi Khusus Bulan Ini"
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Selamat datang di Museum Budaya Nusantara.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: 'Pada bulan ini, kami menampilkan koleksi eksklusif bertema:'
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "\"Ritual dan Warisan Tak Kasat Mata\u201D"
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Temukan artefak langka dari berbagai penjuru Nusantara
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: 'Jangan lewatkan juga:'
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: 'Tur Virtual Berbasis AR: Arahkan perangkatmu ke simbol tertentu untuk
+      melihat visual interaktif!'
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Kisah Misteri Buku Tua \u2013 Buku yang tidak terdaftar dalam katalog
+      resmi\u2026 apakah kamu bisa menemukannya?"
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Wah\u2026 mereka punya tema khusus bulan ini ya?"
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "\u201CRitual dan Warisan Tak Kasat Mata\u201D\u2026 kedengarannya cukup
+      mistis."
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Hmm\u2026 tunggu, mereka nyebut soal buku tua?"
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Ini makin menarik.

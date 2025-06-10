@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
-  m_Name: Lvl 0 - Side - Text 2
+  m_Name: Lvl 0 - Side - Text 19
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Vas ini berasal dari wilayah Trowulan, bekas pusat Kerajaan Majapahit.
+    text: Hm? Buku ini kelihatan jauh lebih tua dibanding yang lain...
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Warna merah yang mencolok melambangkan keberanian, darah para pejuang,
-      dan semangat persatuan.
+    text: "Sampulnya usang\u2026 kayaknya udah puluhan tahun gak dibuka."
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Dan bahasanya agak aneh...
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Sudahlah, bukan urusanku...
