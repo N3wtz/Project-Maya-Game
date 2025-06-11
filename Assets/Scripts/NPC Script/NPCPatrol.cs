@@ -15,25 +15,50 @@ public class NPCPatrol : MonoBehaviour
     private Animator anim;
     private SpriteRenderer spriteRenderer;
 
+    private bool wasInDialogue;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        currentPatrolIndex = 0;
+        target = patrolPoints[currentPatrolIndex];
+
         StartCoroutine(SetPatrolPoint());
     }
 
     void Update()
     {
+        // Saat dialog aktif
+        if (DialogueManager.Instance != null && DialogueManager.Instance.isDialogueActive)
+        {
+            wasInDialogue = true;
+            rb.velocity = Vector2.zero;
+            anim.Play("Idle");
+            return;
+        }
+
+        // Setelah dialog selesai
+        if (wasInDialogue)
+        {
+            wasInDialogue = false;
+            StartCoroutine(SetPatrolPoint()); // Lanjut ke titik berikutnya setelah pause
+            return;
+        }
+
+        // Saat istirahat antar titik
         if (isPaused)
         {
             rb.velocity = Vector2.zero;
             return;
         }
 
+        // Gerakan menuju target
         Vector2 direction = ((Vector3)target - transform.position).normalized;
 
-        // Ganti flip dengan SpriteRenderer
+        // Flip arah sprite
         if (direction.x != 0)
             spriteRenderer.flipX = direction.x < 0;
 
@@ -46,12 +71,14 @@ public class NPCPatrol : MonoBehaviour
     IEnumerator SetPatrolPoint()
     {
         isPaused = true;
+        rb.velocity = Vector2.zero;
         anim.Play("Idle");
 
         yield return new WaitForSeconds(pauseDuration);
 
         currentPatrolIndex = (currentPatrolIndex + 1) % patrolPoints.Length;
         target = patrolPoints[currentPatrolIndex];
+
         isPaused = false;
         anim.Play("Walk");
     }

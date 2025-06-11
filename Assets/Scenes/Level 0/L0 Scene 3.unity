@@ -3125,11 +3125,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 777443453}
+  - component: {fileID: 777443458}
+  - component: {fileID: 777443455}
   - component: {fileID: 777443457}
   - component: {fileID: 777443456}
-  - component: {fileID: 777443455}
   - component: {fileID: 777443454}
-  - component: {fileID: 777443458}
   m_Layer: 0
   m_Name: Dika
   m_TagString: Untagged
@@ -3217,7 +3217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f0bc6bb69490d143b085070ff2f238f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSO: {fileID: 0}
+  dialogueSO: {fileID: 11400000, guid: 00055c10ec97af642821b995ba19df9a, type: 2}
 --- !u!114 &777443457
 MonoBehaviour:
   m_ObjectHideFlags: 0
