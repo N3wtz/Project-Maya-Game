@@ -35,3 +35,8 @@ MonoBehaviour:
     text: Haahh...
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: "Iya deh\u2026 yuk, kita jalan-jalan dulu.  "
+  options:
+  - optionText: Okey
+    nextDialogue: {fileID: 0}
+  - optionText: Malas
+    nextDialogue: {fileID: 0}

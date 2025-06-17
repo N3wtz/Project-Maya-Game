@@ -51,7 +51,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueSO dialogueSO)
     {
-        if (isDialogueActive || isInCooldown) return;
+        if (isInCooldown) return;
 
         currentDialogue = dialogueSO;
         dialogueIndex = 0;
@@ -61,7 +61,7 @@ public class DialogueManager : MonoBehaviour
 
     public void AdvanceDialogue()
     {
-        if (!canAdvance) return;  // jika belum boleh lanjut, ignore input
+        if (!canAdvance) return;
 
         if (isTyping)
         {
@@ -83,7 +83,6 @@ public class DialogueManager : MonoBehaviour
 
         ShowDialogue();
 
-        // Beri jeda minimal agar efek ketik bisa terlihat
         yield return new WaitForSeconds(typingSpeed * 2f);
 
         canAdvance = true;
@@ -137,16 +136,17 @@ public class DialogueManager : MonoBehaviour
     {
         ClearChoices();
 
-        if(currentDialogue.options.Length > 0)
+        if (currentDialogue.options.Length > 0)
         {
             for (int i = 0; i < currentDialogue.options.Length; i++)
             {
                 var option = currentDialogue.options[i];
+                var capturedOption = option; // fix closure issue
 
-                choiceButtons[i].GetComponentInChildren<TMP_Text>().text = option.optionText;
+                choiceButtons[i].GetComponentInChildren<TMP_Text>().text = capturedOption.optionText;
                 choiceButtons[i].gameObject.SetActive(true);
 
-                choiceButtons[i].onClick.AddListener(() => ChooseOption(option.nextDialogue));
+                choiceButtons[i].onClick.AddListener(() => ChooseOption(capturedOption.nextDialogue));
             }
         }
         else
@@ -159,11 +159,15 @@ public class DialogueManager : MonoBehaviour
 
     private void ChooseOption(DialogueSO dialogueSO)
     {
+        ClearChoices();
+        isDialogueActive = false; // FIX: agar StartDialogue tidak diblok
+
         if (dialogueSO == null)
+        {
             EndDialogue();
+        }
         else
         {
-            ClearChoices();
             StartDialogue(dialogueSO);
         }
     }
