@@ -1,0 +1,1038 @@
+fileFormatVersion: 2
+guid: 229be91af825a41448999bb3051eebbd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Museum Spites Pack_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2622
+        width: 449
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dd1a5c078c8af48b12da2e961088f5
+      internalID: -46922386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_1
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 2723
+        width: 355
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60036c8ec11f214183ffac3bbd91050
+      internalID: 426689287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_2
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 2622
+        width: 206
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bdf4d3e77b4c945b59e97b721c0d22
+      internalID: 1221931167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_3
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 2609
+        width: 339
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac4192d01fd53541a904e05d303656a
+      internalID: -1169056297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_4
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2609
+        width: 339
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b38bb43dfc058b47a0403784d35aea3
+      internalID: -1495378769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_5
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 2647
+        width: 451
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204afa29fff42c14cb1636d1917c8527
+      internalID: 2044879456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_6
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 2688
+        width: 229
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ec09abedc3a574d90c5ba5744fa27c
+      internalID: 262606098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_7
+      rect:
+        serializedVersion: 2
+        x: 3794
+        y: 2703
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9bc9aa8c1ec3247811372ae40e8132
+      internalID: 272606933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_8
+      rect:
+        serializedVersion: 2
+        x: 4183
+        y: 2717
+        width: 343
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8748b35cde59b4aa45d579a516a877
+      internalID: -678375201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_9
+      rect:
+        serializedVersion: 2
+        x: 4768
+        y: 2221
+        width: 181
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0567dcac0f8639a4faedafec58aeabf0
+      internalID: -1663219066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_10
+      rect:
+        serializedVersion: 2
+        x: 5243
+        y: 2695
+        width: 262
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555843b1fa5834d469011c63a745fcfd
+      internalID: -1421762486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2237
+        width: 449
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72968b2abdaa50449975f2f629b0b2c6
+      internalID: 710882679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_12
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 2211
+        width: 212
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eb9f17cf629d941a4cdb7f0b39aeb2
+      internalID: -965034986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_13
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 2111
+        width: 206
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70140c421fd9c8a4ca9e6d3e2b145b65
+      internalID: 1082261380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_14
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2111
+        width: 192
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb7cfc3f491d2f4990969c2043342bd
+      internalID: 1272525177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_15
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 2072
+        width: 502
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b67d96219665f41969bb40dbae1222
+      internalID: -762655621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_16
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 2111
+        width: 398
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6621b3064b289d54da2f292cc84a2bcd
+      internalID: -338625921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_17
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 2230
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29d446fc0cb75143947ac7c917b831c
+      internalID: 649409117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_18
+      rect:
+        serializedVersion: 2
+        x: 3785
+        y: 2230
+        width: 108
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cc256ea31bf5343b8ac09e2313eb99
+      internalID: 700684407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_19
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 2203
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26b0c38443dfa2409a097390c3a3114
+      internalID: 1283361071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_20
+      rect:
+        serializedVersion: 2
+        x: 5257
+        y: 2281
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915fe3cac578d784085479c39fada13b
+      internalID: 1351979896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_21
+      rect:
+        serializedVersion: 2
+        x: 5417
+        y: 2281
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e98750020fe2424f8697884c9378e92
+      internalID: -1836805452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1785
+        width: 481
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5242fbd0567b7f4bafcf813692b55cd
+      internalID: 1137394846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_23
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1759
+        width: 117
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878bb229adb2ce14c99d14b7cd2bd348
+      internalID: -46750126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_24
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1631
+        width: 718
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41b3694969adec47b42a79e1738ef91
+      internalID: -734330423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_25
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 1724
+        width: 101
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbff15b6e77bc764c8db59c5530ce888
+      internalID: -424949634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_26
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 1599
+        width: 398
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873ad3a12dc35f2489f1413c2fa54053
+      internalID: 475652576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_27
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 1700
+        width: 114
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e433396725666645ab023ec87015292
+      internalID: 373892082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_28
+      rect:
+        serializedVersion: 2
+        x: 3767
+        y: 1671
+        width: 130
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def15b62d0c315b49b1392b13a864788
+      internalID: 1994822538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_29
+      rect:
+        serializedVersion: 2
+        x: 4249
+        y: 1749
+        width: 752
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38863565305ad314db8985981c5f4d85
+      internalID: 1069211156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_30
+      rect:
+        serializedVersion: 2
+        x: 5301
+        y: 1741
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478e305a150f5334884e07deca6a1c15
+      internalID: 1444649417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1156
+        width: 2103
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778c9e955c07831449ff051a00141921
+      internalID: 919774202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_32
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 1191
+        width: 451
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e22359676ae74a90925831d2d1e0d
+      internalID: -732231478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_33
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 558
+        width: 1740
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74583bdc01fc4b4095150026a85d7f3
+      internalID: -1873017960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_34
+      rect:
+        serializedVersion: 2
+        x: 5268
+        y: 1203
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff85537c93233e341ac3bcac8d1a3806
+      internalID: -79171233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_35
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 1203
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8f8c911fccfbf4fb6318ad959eade4
+      internalID: -1355369648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_36
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1203
+        width: 39
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eacd0fc756c4774cbc34168a33b6b17
+      internalID: 1363001940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_37
+      rect:
+        serializedVersion: 2
+        x: 5441
+        y: 1203
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a39655d1227424a91900ba9e442d67
+      internalID: -1566130987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_38
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 671
+        width: 1922
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ed7efab79448d49bb38ba1c17ddcb9
+      internalID: 599971513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_39
+      rect:
+        serializedVersion: 2
+        x: 5339
+        y: 734
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90e8b43404d35b4897404350452ffbb
+      internalID: -762979378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_40
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 131
+        width: 2930
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d090afb34223bed46a42add52b79532e
+      internalID: 1083785073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Museum Spites Pack_41
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 267
+        width: 931
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0913c471d7f49614eaf59559577ef60d
+      internalID: 671990222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Museum Spites Pack_0: -46922386
+      Museum Spites Pack_1: 426689287
+      Museum Spites Pack_10: -1421762486
+      Museum Spites Pack_11: 710882679
+      Museum Spites Pack_12: -965034986
+      Museum Spites Pack_13: 1082261380
+      Museum Spites Pack_14: 1272525177
+      Museum Spites Pack_15: -762655621
+      Museum Spites Pack_16: -338625921
+      Museum Spites Pack_17: 649409117
+      Museum Spites Pack_18: 700684407
+      Museum Spites Pack_19: 1283361071
+      Museum Spites Pack_2: 1221931167
+      Museum Spites Pack_20: 1351979896
+      Museum Spites Pack_21: -1836805452
+      Museum Spites Pack_22: 1137394846
+      Museum Spites Pack_23: -46750126
+      Museum Spites Pack_24: -734330423
+      Museum Spites Pack_25: -424949634
+      Museum Spites Pack_26: 475652576
+      Museum Spites Pack_27: 373892082
+      Museum Spites Pack_28: 1994822538
+      Museum Spites Pack_29: 1069211156
+      Museum Spites Pack_3: -1169056297
+      Museum Spites Pack_30: 1444649417
+      Museum Spites Pack_31: 919774202
+      Museum Spites Pack_32: -732231478
+      Museum Spites Pack_33: -1873017960
+      Museum Spites Pack_34: -79171233
+      Museum Spites Pack_35: -1355369648
+      Museum Spites Pack_36: 1363001940
+      Museum Spites Pack_37: -1566130987
+      Museum Spites Pack_38: 599971513
+      Museum Spites Pack_39: -762979378
+      Museum Spites Pack_4: -1495378769
+      Museum Spites Pack_40: 1083785073
+      Museum Spites Pack_41: 671990222
+      Museum Spites Pack_5: 2044879456
+      Museum Spites Pack_6: 262606098
+      Museum Spites Pack_7: 272606933
+      Museum Spites Pack_8: -678375201
+      Museum Spites Pack_9: -1663219066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
